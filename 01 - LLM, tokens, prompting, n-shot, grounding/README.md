@@ -8,9 +8,16 @@ In an increasingly digital world, the capabilities of generative AI are capturin
 
 Vitaliy began by sharing his professional background, a journey spanning 13 years in IT, software testing, and education. From starting as an integration test engineer to becoming the head of education for Western and Central Asia at EPAM Systems, his trajectory underscored his passion for teaching and innovation. Currently working as an AI engineer, he develops a multi-agent orchestration framework tailored for software development lifecycles, emphasizing the practical application of generative AI in enterprise settings.
 
+
+![1710659015080](https://github.com/user-attachments/assets/52eda308-78d1-4b5e-a728-bf4d55c0fb9e)
+
+
 ---
 
 #### **Understanding the Basics: AI vs. Machine Learning**
+
+![Difference-Between-Machine-Learning-and-Artificial-Intelligence](https://github.com/user-attachments/assets/15ab6dbb-7912-4271-9418-de63b336674a)
+
 
 The lecture delved into the foundational concepts:
 
@@ -53,6 +60,8 @@ To make the most of the course, Vitaliy provided valuable insights into resource
 
 - **Generative AI Tools:** Discussions touched on the role of OpenAI’s GPT models and the potential of foundational models like Llama and Anthropic Cloud.
 
+![dsr113-Machine-Learning-Framework-Library-Tools](https://github.com/user-attachments/assets/4ab57598-7e00-467e-8876-e06a102b0e55)
+
 ---
 
 #### **AI in Practice**
@@ -68,6 +77,9 @@ The lecture also emphasized:
 ---
 
 #### **Ethics and Security**
+
+![machine_ethics](https://github.com/user-attachments/assets/4e8c926e-115b-4077-8ed2-4eac051dd644)
+
 
 Vitaliy provided cautionary advice regarding the use of cloud-based AI tools. He stressed the importance of:
 
