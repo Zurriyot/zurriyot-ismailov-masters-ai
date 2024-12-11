@@ -1,0 +1,3 @@
+I am taking Generative AI course on my Masters program. Tutor requested to create a blogpost as a home task based on the transcripts of the lecture 1. So, I have attached "lesson-1-transcript.txt" file that contains these transcripts. Please, create a nice and informative blogpost with focusing on main points based on the attached transcript file. Take into consideration the followings:
+1. Transcript content is in conversation style where tutor is talking with students
+2. Speaker 8 is the tutor 
