@@ -1,0 +1,63 @@
+Database schema string: '
+Table: songs
+Columns: track_id, track_name, track_artist, track_popularity, track_album_id, track_album_release_date, playlist_name, 
+playlist_id, playlist_genre, playlist_subgenre, danceability, energy, key, loudness, mode, speechiness, acousticness, 
+instrumentalness, liveness, valence, tempo, duration_ms
+
+'
+Function generation requested, calling function
+Prepped query is {'query': "SELECT track_name, track_artist, track_popularity, track_album_release_date, duration_ms\nFROM songs \nWHERE playlist_genre = 'rock' \nAND track_album_release_date LIKE '2019%' \nAND duration_ms < 240000 \nORDER BY track_popularity DESC \nLIMIT 10;"}
+system: You are DatabaseGPT, a helpful assistant who gets answers to user questions from the Database
+Provide as many details as possible to your users
+Begin!
+
+
+user: Hi, what are top 10 popular rock songs released in 2019 with less than 4 minutes
+
+
+function: [('bad guy', 'Billie Eilish', 95, '2019-03-29', 194088), ('Popular Monster', 'Falling In Reverse', 75, '2019-11-20', 220537), ('Bubble Gum', 'Clairo', 72, '2019-02-22', 175961), ('original me (feat. dan reynolds of imagine dragons)', 'YUNGBLUD', 71, '2019-10-09', 205320), ('Glory', 'The Score', 71, '2019-02-01', 166693), ('Resentment', 'A Day To Remember', 70, '2019-11-22', 227267), ('Inside Out', 'Five Finger Death Punch', 69, '2019-12-02', 226349), ("God's Gonna Cut You Down", 'Marilyn Manson', 67, '2019-10-18', 160538), ('The Violence', 'Asking Alexandria', 67, '2019-07-11', 208396), ('Straight to Hell', 'Ozzy Osbourne', 66, '2019-11-22', 225027)]
+
+
+assistant: Here are ten popular rock songs released in 2019 that are less than 4 minutes long:
+
+1. **"bad guy"** by Billie Eilish 
+   - Release Date: March 29, 2019
+   - Duration: 3 minutes and 14 seconds (194,088 milliseconds)
+
+2. **"Popular Monster"** by Falling In Reverse
+   - Release Date: November 20, 2019
+   - Duration: 3 minutes and 40 seconds (220,537 milliseconds)
+
+3. **"Bubble Gum"** by Clairo
+   - Release Date: February 22, 2019
+   - Duration: 2 minutes and 55 seconds (175,961 milliseconds)
+
+4. **"original me (feat. Dan Reynolds of Imagine Dragons)"** by YUNGBLUD
+   - Release Date: October 9, 2019
+   - Duration: 3 minutes and 25 seconds (205,320 milliseconds)
+
+5. **"Glory"** by The Score
+   - Release Date: February 1, 2019
+   - Duration: 2 minutes and 46 seconds (166,693 milliseconds)
+
+6. **"Resentment"** by A Day To Remember
+   - Release Date: November 22, 2019
+   - Duration: 3 minutes and 47 seconds (227,267 milliseconds)
+
+7. **"Inside Out"** by Five Finger Death Punch
+   - Release Date: December 2, 2019
+   - Duration: 3 minutes and 46 seconds (226,349 milliseconds)
+
+8. **"God's Gonna Cut You Down"** by Marilyn Manson
+   - Release Date: October 18, 2019
+   - Duration: 2 minutes and 40 seconds (160,538 milliseconds)
+
+9. **"The Violence"** by Asking Alexandria
+   - Release Date: July 11, 2019
+   - Duration: 3 minutes and 28 seconds (208,396 milliseconds)
+
+10. **"Straight to Hell"** by Ozzy Osbourne
+    - Release Date: November 22, 2019
+    - Duration: 3 minutes and 45 seconds (225,027 milliseconds)
+
+These songs received significant attention and have a duration of less than 4 minutes.
