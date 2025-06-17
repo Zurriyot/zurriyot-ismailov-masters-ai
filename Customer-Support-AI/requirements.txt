@@ -1,0 +1,13 @@
+# requirements.txt - Fixed version compatibility for HuggingFace Spaces
+streamlit==1.28.0
+openai==0.28.1
+PyPDF2==3.0.1
+pycryptodome==3.19.0
+faiss-cpu==1.7.4
+sentence-transformers==2.3.1
+numpy==1.24.3
+requests==2.31.0
+torch==2.0.1
+transformers==4.35.2
+huggingface_hub==0.19.4
+tokenizers==0.15.0
